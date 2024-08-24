@@ -1,0 +1,48 @@
+.services {
+    margin: 70px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+#service2 img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+#service2{
+    flex-basis: 35%;
+    font-size: 18px;
+    margin-bottom: 90px;
+    
+}
+.service{
+    flex-basis: 28%;
+    font-size: 18px;
+    padding: 6px 6px;
+}
+.service p{
+    margin: 15px 0;
+    font-weight: 600;
+    font-size: 22px;
+}
+#service2 p{
+    margin: 15px 0;
+    font-weight: 600;
+    font-size: 22px;
+}
+.service img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+#service2 img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
