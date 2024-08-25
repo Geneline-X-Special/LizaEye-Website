@@ -28,20 +28,20 @@
 .contact-col ul li {
     display: flex;
     align-items: center;
-    margin: 20px ;
+    margin:20px 0 ;
 }
 #email-icon{
         width: 36px;
         padding: 6px;
-        margin-right: 5px;
+       
 }
 #contact-icon{
     width: 38px;
     padding: 8px;
-    margin-right: 5px;
+    
 }
 #location-icon{
     width: 46px;
     padding: 8px;
-    margin-right: 5px;
+   
 }

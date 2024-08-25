@@ -23,9 +23,9 @@ const Testimonial = () => {
 
     }
     return (
-        <div className='testify' id='testimonial'>
-            <img src={back_icon} alt='' className='back-btn' onClick={slideBackward}/>
-            <img src={next_icon} alt='' className='next-btn' onClick={slideForward}/>
+        <div className='testify' name='testimonial'>
+            <img src={back_icon} alt='Loading' className='back-btn' onClick={slideBackward}/>
+            <img src={next_icon} alt='Loading' className='next-btn' onClick={slideForward}/>
             <div className='slider'>
                 <ul ref={slider}>
                     <li>

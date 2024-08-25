@@ -11,3 +11,9 @@
     display: inline-block;
     margin-left: 20px;
 }
+#powered{
+    font-size: 12px;
+    margin-right: 150px;
+    margin-top: 30px;
+    display: inline-block;
+}

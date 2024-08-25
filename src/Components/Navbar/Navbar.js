@@ -14,13 +14,13 @@ const Navbar = () => {
     },[])
     return (
         <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
-            <img src={logo} alt='' className='logo'></img>
+            <img src={logo} alt='Loading' className='logo'></img>
             <ul>
-                <li><Link to='hero' smooth={true} offset={0} duartion={500}>Home</Link></li>
-                <li><Link to='services' smooth={true} offset={0} duartion={500}>About Us</Link></li>
-                <li><Link to='about' smooth={true} offset={0} duartion={500}>Services</Link></li>
-                <li><Link to='testimonial' smooth={true} offset={0} duartion={500}>Testimonial</Link></li>
-                <li><Link to='contact-us' smooth={true} offset={0} duartion={500}></Link>Contact Us</li>
+                <li><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
+                <li><Link to='serve' smooth={true} offset={-240} duration={500}>Services</Link></li>
+                <li><Link to='about' smooth={true} offset={-100} duration={500}>About Us</Link></li>
+                <li><Link to='testimonial' smooth={true} offset={-250} duration={500}>Testimonial</Link></li>
+                <li><Link to='contact-us' smooth={true} offset={-240} duration={500}>Contact Us</Link></li>
             </ul>
         </nav>
     )
