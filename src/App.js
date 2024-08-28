@@ -5,9 +5,10 @@ import Hero from './Components/Hero/Hero.js';
 import Title from './Components/Title/Title.js';
 import Services from './Components/Services/Services.js';
 import About from './Components/About/About.js';
-import Testimonial from './Components/Testimonial/Testimonial.js';
 import Contact from './Components/Contact/Contact.js';
 import Footer from './Components/Footer/Footer.js'
+import Testimonial  from './Components/Testimonial/Testimonial.js';
+ 
 
 
 const App = () => {
@@ -19,8 +20,8 @@ const App = () => {
         <Title subTitle='OUR SERVICES' title='What We Offer' />
           <Services />  
           <About />
-          <Title subTitle='TESTIMONIALS' title='What Clients Say'  />
-          <Testimonial />
+          <Title subTitle='TESTIMONIAL' title='What Clients Say' />
+          <Testimonial/>
           <Title subTitle='CONTACT US' title='Get In Touch'/>
           <Contact />
           <Footer />

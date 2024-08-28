@@ -45,3 +45,9 @@
     padding: 8px;
    
 }
+/* ----- media query ---- */
+@media(max-width: 650px){
+    .contact{
+        display: block;
+    }
+}

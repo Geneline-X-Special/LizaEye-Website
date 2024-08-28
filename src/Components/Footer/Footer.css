@@ -14,6 +14,41 @@
 #powered{
     font-size: 12px;
     margin-right: 150px;
-    margin-top: 30px;
+    margin-bottom: 15px;
     display: inline-block;
+}
+/* ----- media query ----- */
+@media(max-width: 650px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer ul li {
+        margin: 10px;
+    } 
+    .footer ul {
+        margin-top: 10px,;
+    }
+    #powered{
+        width: 100%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 950px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer ul li {
+        margin: 10px;
+    } 
+    .footer ul {
+        margin-top: 10px,;
+    }
+    #powered{
+        width: 100%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
 }

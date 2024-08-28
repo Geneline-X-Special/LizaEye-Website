@@ -9,28 +9,99 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 10;
+    z-index: 100;
     margin: 0;
-    
 }
-
 
  .logo {
     margin-left: 20px;
-    width: 130px;
-    height: 50px;
+    width: 80px;
+    height: 35px;
 }
- ul, li {
-    display: inline-block;
+ li {
+    position: relative;
     list-style: none;
     font-size: 20px;
+    font-weight: 600;
     margin-right: 35px;
-    
+    display: inline-block;
 }
 nav ul, li {
     cursor: pointer;
 }
 .dark-nav {
-    background: #212EA0;
+    background: #545a9b;
     transition: 0.5s;
+}
+.custom.MuiSvgIcon-root {
+    display: none;
+}
+  li:hover{
+    opacity: 1;
+}
+  li::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #ffff;
+    position: absolute;
+    bottom: -1;
+    top:100%;
+    right:10;
+    transition: .3s;
+  }
+  li:hover::before{
+    width:65%;
+  }
+
+/* ----- media query ----- */
+@media (max-width: 1000px){
+    .logo{
+        width: 140px;
+    }
+    nav ul li{
+        margin: 10px 15px;
+    }
+   
+}
+@media (max-width: 840px){
+   .logo{
+    margin-right: 420px;
+    width:85px;
+    height:35px;
+   }
+    nav{
+        padding: 15px 0;
+       
+    }
+    nav ul {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background: #9da3e5;
+        z-index: -1;
+        width:200px;
+        padding-top: 70px;
+        overflow: hidden;
+        transition: 0.5s ;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+       
+
+    }
+    
+    .custom.MuiSvgIcon-root {
+        display: block;
+        top: 15px;
+        right:15px;
+        width:30px;
+        cursor: pointer;
+        left: 20px;
+    }
+    .hide-mobile-menu{
+        left: -200px;
+    }
 }

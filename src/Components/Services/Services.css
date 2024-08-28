@@ -16,11 +16,12 @@
     border-radius: 10px;
     display: block;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 #service2{
     flex-basis: 35%;
     font-size: 18px;
-    margin-bottom: 90px;
+    
     
 }
 .service{
@@ -29,14 +30,20 @@
     padding: 6px 6px;
 }
 .service p{
-    margin: 15px 0;
     font-weight: 600;
     font-size: 22px;
+    margin-top: 40px;
+}
+.service article{
+    margin-top: 30px;
 }
 #service2 p{
-    margin: 15px 0;
     font-weight: 600;
     font-size: 22px;
+    margin-bottom: 60px;
+} 
+#service2 article{
+    margin-bottom: 120px;
 }
 .service img:hover{
     transform: scale(1.1);
@@ -45,4 +52,31 @@
 #service2 img:hover{
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
+}
+/* ----- media query ----- */
+@media (max-width:700px){
+    .services{
+        flex-direction: column;
+        margin: 30px auto;
+    }
+    .service{
+        flex-basis: 100%;
+        margin: 20px 10px;
+       
+    }
+    .service img{
+       top: 90px;
+    }
+    .service p{
+        top: 30px;
+    }
+
+    }
+    #service2{
+        margin-top: 30px;
+    }
+    #service2 img{
+        margin-top: 40px;
+        bottom: 30px;
+        
 }

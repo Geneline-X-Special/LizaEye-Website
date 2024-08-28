@@ -15,7 +15,7 @@ const Hero = () => {
                 <h1>We Ensure Better Protection to your Systems Networks and Data</h1>
                 <p>Our cutting-edge service is to provide security to your systems from malicious attacks </p>
                 <p>We are the guardians to your digital world</p>
-                <button className='btn'><Link to='serve' smooth={true} offset={-50} duration={500}>Explore more</Link><img src={dark_arrow} alt='Loading'/></button>
+                <button className='btn'><Link to='serve' smooth={true} offset={-250} duration={500}>Explore more</Link><img src={dark_arrow} alt='Loading'/></button>
             </div>
         </div>
     )
