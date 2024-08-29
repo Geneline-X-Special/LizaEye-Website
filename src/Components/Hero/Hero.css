@@ -24,7 +24,11 @@
     line-height: 1.4;
 }
 /* ----- media query ----- */
-@media (max-width:800px){
+@media (max-width:920px){
+    .hero-text h1{
+        margin:auto;
+        font-size: 32px;
+    }
 }
 @media (max-width:640px){
     .hero-text h1{
